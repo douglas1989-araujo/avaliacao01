@@ -33,7 +33,6 @@ public class AppPilotos {
             if (opcao == 1) {
                 // Se não tem mais espaço no vetor, caio fora
                 tamanho = pilotos.length;
-                System.out.println("espaço vetor" + tamanho);
                if (qtdCadastrados == tamanho ) {
                    System.out.println("\nNão há espaço para cadastrar novos pilotos.");
                    voltarMenu(in);
@@ -65,7 +64,7 @@ public class AppPilotos {
                   }
                     pilotos[qtdCadastrados]= pil;
                     qtdCadastrados = qtdCadastrados + 1;
-                    System.out.println("\nPiloto cadastrado com sucesso." + qtdCadastrados);
+                    System.out.println("\nPiloto cadastrado com sucesso.");
                     if(pilotos.length == qtdCadastrados){
                     System.out.println("aumente o espaço de armazenamento para continuar cadastrando");
                     voltarMenu(in);
