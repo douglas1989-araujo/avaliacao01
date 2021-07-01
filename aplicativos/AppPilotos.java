@@ -13,7 +13,6 @@ public class AppPilotos {
         final int MAX_ERROS = 3;
         int opcao, qtdCadastrados = 0;
         int qtd=0;
-      //  boolean continuar;
         int tamanho;
         Piloto[] pilotos = new Piloto[MAX_ELEMENTOS];
         Scanner in = new Scanner(System.in);
